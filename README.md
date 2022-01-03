@@ -9,7 +9,7 @@ IEEE Xplore: https://ieeexplore.ieee.org/abstract/document/9616014
 ---
 **Citing**
 
-If you use our algorithm, please cite [[1]]
+If you use our algorithm, please cite [[1]](https://ieeexplore.ieee.org/abstract/document/9616014)
 
 ```bibtex
 @inproceedings{mozaffari2021improved,
