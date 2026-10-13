@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "l1tucker"
+version = "1.0.0"
+description = "Outlier-resistant L1-norm Tucker decomposition: L1-HOSVD, L1-HOOI and L1T-L1F (L1-Tucker via L1-Fitting)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Mahsa Mozaffari" }]
+keywords = ["tensor", "tucker", "l1-norm", "robust", "outliers", "pca"]
+dependencies = ["numpy>=1.20", "scipy>=1.7"]
+
+[project.optional-dependencies]
+examples = ["matplotlib"]
+test = ["pytest"]
+
+[project.urls]
+Paper = "https://doi.org/10.23919/EUSIPCO54536.2021.9616014"
+
+[tool.setuptools]
+packages = ["l1tucker"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
